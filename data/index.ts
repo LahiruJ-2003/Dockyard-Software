@@ -1,9 +1,10 @@
 export const navItems = [
-  
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Home", link: "/" },
+  { name: "About", link: "/about.tsx" },
+  { name: "Projects", link: "/projects" },
+  { name: "Team", link: "/team" },
+  { name: "Careers", link: "/careers" },
+  { name: "Contact", link: "/contact" },
 ];
 
 export const gridItems = [
@@ -73,27 +74,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Restaurant POS System",
+    des: "A Restaurant POS system streamlines operations with a comprehensive solution.",
+    img: "/p1 1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/mongodb.svg"],
+    // link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Rent A Car Service Management System",
+    des: "A car rental solution for reservations, profiles, maintenance, contracts, payments, and notifications.",
+    img: "/p2 2.svg",
+    iconLists: ["/re.svg", "/mssql.svg", "/html3.png"],
+    // link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "Inventory Management System",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    img: "/p3 3.svg",
+    iconLists: ["/re.svg", "/mssql.svg", "/ts.svg"],
+    // link: "/ui.aiimg.com",
   },
   {
     id: 4,
@@ -101,7 +102,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    // link: "/ui.apple.com",
   },
 ];
 
@@ -216,3 +217,23 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
+export const cards = [
+  {
+    id: 1,
+    image: "/DSC_9366.jpg", // Replace with actual image path
+  },
+  {
+    id: 2,
+    image: "/DSC_9447.jpg", // Replace with actual image path
+  },
+  {
+    id: 3,
+    image: "/DSC_9641.jpg", // Replace with actual image path
+  },
+  {
+    id: 4,
+    image: "/DSC_9495.jpg", // Replace with actual image path
+  },
+];
+
