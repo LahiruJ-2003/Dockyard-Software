@@ -625,6 +625,4 @@ Assets used in the project can be found [here](https://drive.google.com/file/d/1
 
 
 
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
+
