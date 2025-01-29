@@ -1,11 +1,11 @@
 // _____________________________________________________navbar_____________________________________________________
 export const navItems = [
   { name: "Home", link: "/" },
-  { name: "About", link: "/about" },
-  { name: "Projects", link: "/projects" },
-  { name: "Team", link: "/team" },
-  { name: "Careers", link: "/careers" },
-  { name: "Contact", link: "/contact" },
+  { name: "About", link: "/Pages/about" },
+  { name: "Projects", link: "/Pages/projects" },
+  { name: "Team", link: "/Pages/team" },
+  { name: "Careers", link: "/Pages/careers" },
+  { name: "Contact", link: "/Pages/contact" },
 ];
 // _____________________________________________________griditems_____________________________________________________
 export const gridItems = [
