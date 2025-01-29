@@ -97,7 +97,7 @@ export default function Contact() {
         {/* Left Side: Contact Us */}
         <div className="w-full md:w-2/5">
           <h2 className="text-4xl mb-4 text-purple">Contact Us</h2>
-          <p className="text-sm text-gray-600 mb-9">
+          <p className="text-sm text-white mb-9">
             Any questions? We would be happy to help you!
           </p>
           <div className="space-y-6">
@@ -121,10 +121,10 @@ export default function Contact() {
                   />
                 )}
                 <div className="text-left">
-                  <p className="text-lg text-black font-semibold">
+                  <p className="text-lg text-white font-semibold">
                     {detail.title}
                   </p>
-                  <p className="text-sm text-black">{detail.desc}</p>
+                  <p className="text-sm text-white">{detail.desc}</p>
                 </div>
               </div>
             ))}
@@ -161,7 +161,7 @@ export default function Contact() {
         {/* Right Side: Form */}
         <div className="w-full md:w-1/2">
           <form
-            className="space-y-4 text-black-200"
+            className="space-y-4 text-white"
             onSubmit={handleSubmit}
           >
             {/* Form Fields */}
