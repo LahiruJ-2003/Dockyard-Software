@@ -4,6 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import MagicButton from "./MagicButton";
 
 const RecentProjects = () => {
   return (
@@ -76,6 +77,8 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
+      {/* <MagicButton
+      title="More Work"/> */}
     </div>
   );
 };
