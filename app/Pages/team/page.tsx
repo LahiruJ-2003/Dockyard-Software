@@ -18,7 +18,7 @@ export default function TeamPage() {
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setLogoVisible(entry.isIntersecting);
+        setLogoVisible(entry.isIntersecting); 
       },
       {
         threshold: 1.0,
