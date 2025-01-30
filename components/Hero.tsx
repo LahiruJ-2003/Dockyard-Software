@@ -4,8 +4,11 @@ import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { BackgroundBeams } from "./ui/background-beams";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+ import { Link  } from "react-router-dom";
+
 
 const Hero = () => {
+   
   return (
     <div className="pb-20 pt-36">
       {/**
@@ -55,16 +58,7 @@ const Hero = () => {
            *
            *  change md:text-6xl, add more responsive code
            */}
-
-          {/* <TextGenerateEffect
-            words="DOCKYARD SOFTWARE"
-            className="text-center text-[80px] md:text-[100px] lg:text-[120px]"
-          /> */}
-
-          {/* <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          /> */}
+          
           <TextGenerateEffect
             words="DOCKYARD SOFTWARE"
             className="text-center text-[40px] md:text-5xl lg:text-6xl font-pavelt"
@@ -76,13 +70,14 @@ const Hero = () => {
             efficient, and user-centric experiences.
           </p>
 
-          <a href="#about">
+          <a href="/Pages/projects"> 
             <MagicButton
               title="Our Projects"
               icon={<FaLocationArrow />}
-              position="right"
+              position="right"                 
+             
             />
-          </a>
+          </a> 
         </div>
       </div>
     </div>
@@ -90,20 +85,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-// import { FaLocationArrow } from "react-icons/fa6";
-// import MagicButton from "./MagicButton";
-// import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-
-// const Hero = () => {
-//   return (
-//     <div>
-//       <div>
-//         {" "}
-//         {" "}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Hero;
