@@ -1199,33 +1199,63 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    // name: "MillenniumIT",
+    // img: "/MillenniumIT.svg",
+    nameImg: "/MillenniumIT.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    // name: "appwrite",
+    // img: "/app.svg",
+    nameImg: "/ITgallery.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    // name: "HOSTINGER",
+    // img: "/host.svg",
+    nameImg: "/cenmetrix.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    // name: "stream",
+    // img: "/s.svg",
+    nameImg: "/connex.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/casa.svg",
+  },
+  {
+    id: 6,
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/chb.svg",
+  },
+  {
+    id: 7,
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/cdd.svg",
+  },
+  {
+    id: 8,
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/sl.svg",
+  },
+  // {
+  //   id: 9,
+  //   // name: "docker.",
+  //   // img: "/dock.svg",
+  //   nameImg: "/cdd.svg",
+  // },
+  {
+    id: 10,
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/dges.svg",
   },
 ];
 // _____________________________________________________workExperience_____________________________________________________
@@ -1263,15 +1293,18 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/fb.svg",
+    url: "https://www.facebook.com/share/YfU1To7QSmnZtYW3/"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/whtapp.svg",
+    url: "https://wa.me/94776970808"
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/company/dockyard-total-solutions/posts/?feedView=all"
   },
 ];
 // _____________________________________________________cards_____________________________________________________
