@@ -113,9 +113,9 @@ export default function CareersPage() {
           >
             <Careers />
 
-            <div className="flex flex-col md:flex-row justify-between items-center py-2 px-6 bg-white">
+            <div className="flex flex-col md:flex-row justify-between items-center py-2 px-6 ">
               {/* Left Content Container */}
-              <div className="w-full md:w-7/12 p-6 bg-white text-black-100 border border-transparent rounded-lg shadow-lg relative overflow-hidden">
+              <div className="w-full md:w-7/12 p-6 bg-white text-black border border-transparent rounded-lg shadow-lg relative overflow-hidden">
                 <div className="absolute inset-0 border-4 border-transparent rounded-lg animate-shine"></div>
                 <h1 className="text-5xl font-bold mb-6">Careers — Join us!</h1>
                 <p className="mb-4">
@@ -140,14 +140,14 @@ export default function CareersPage() {
               </div>
 
               {/* Right Content Container */}
-              <div className="w-full md:w-4/12 p-6 mt-8 md:mt-0 bg-white text-black-100 border border-transparent rounded-lg shadow-lg relative overflow-hidden">
+              <div className="w-full md:w-4/12 p-6 mt-8 md:mt-0 bg-white text-black border border-transparent rounded-lg shadow-lg relative overflow-hidden">
                 <div className="absolute inset-0 border-4 border-transparent rounded-lg animate-shine"></div>
                 <h2 className="text-3xl font-semibold mb-6">
                   Interested in joining our team?
                 </h2>
                 <a
                   href="#"
-                  className="inline-block text-center bg-purple-500 text-purple font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-purple-600 transition duration-300"
+                  className="inline-block text-center bg-black-100 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-purple-600 transition duration-300"
                 >
                   dockyardsoftware@gmail.com
                 </a>
