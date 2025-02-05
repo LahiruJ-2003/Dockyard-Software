@@ -78,7 +78,7 @@ export default function ProjectsPage() {
 
         <div className="flex justify-center pt-28 pb-0">
           <h1 className="text-4xl font-bold mb-8">
-              Bring Your <span className="text-purple">Project</span>
+              Our <span className="text-purple">Project</span>
           </h1>
         </div>
 
