@@ -4,7 +4,7 @@ import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { BackgroundBeams } from "./ui/background-beams";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
- import { Link  } from "react-router-dom";
+//  import { Link  } from "react-router-dom";
 
 
 const Hero = () => {
