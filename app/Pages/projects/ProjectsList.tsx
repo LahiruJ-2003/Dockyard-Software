@@ -70,9 +70,9 @@ const ProjectsList: FC = () => {
       `}</style>
 
       {/* "Bring your projects" Section */}
-      <h2 className="text-center text-3xl font-bold mt-10">
+      {/* <h2 className="text-center text-3xl font-bold mt-10">
         Bring your projects
-      </h2>
+      </h2> */}
 
       {/* Page Counter */}
       <div className="fixed top-20 right-10 bg-black text-white px-6 py-3 rounded-full text-lg font-bold z-50">

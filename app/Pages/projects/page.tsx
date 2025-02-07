@@ -77,7 +77,7 @@ export default function ProjectsPage() {
         </AnimatePresence>
 
         <div className="flex justify-center pt-28 pb-0">
-          <h1 className="text-4xl font-bold mb-8">
+          <h1 className="text-6xl font-bold mb-8">
               Our <span className="text-purple">Project</span>
           </h1>
         </div>
