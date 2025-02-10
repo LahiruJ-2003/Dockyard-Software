@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+// import { BackgroundBeams } from "@/components/ui/background-beams";
+
 import Footer from "@/components/Footer";
 import { navItems } from "@/data";
 import {
@@ -84,8 +86,11 @@ export default function AboutPage() {
         </section>
 
         {/* Footer */}
+        
         <Footer />
+        
       </div>
+        {/* <BackgroundBeams/> */}
     </main>
   );
 }

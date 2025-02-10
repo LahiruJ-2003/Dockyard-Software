@@ -1,9 +1,9 @@
 // _____________________________________________________navbar_____________________________________________________
 export const navItems = [
   { name: "Home", link: "/" },
-  { name: "About", link: "/Pages/about" },
+  { name: "About", link: "/Pages/about2" },
   { name: "Projects", link: "/Pages/projects" },
-  { name: "Team", link: "/Pages/team" },
+  { name: "Team", link: "/Pages/team2" },
   { name: "Careers", link: "/Pages/careers" },
   { name: "Contact", link: "/Pages/contact" },
 ];
@@ -120,7 +120,7 @@ export const allProjects = [
     des5: "Automated Reminders: SMS or email reminders for clients.",
     des6: "Payment Integration: Accept multiple payment methods (cash, card, online)",
     des7: "Reporting & Analytics: Sales, appointments, and customer satisfaction.",
-    img: "/salon_2.png",
+    img: "/salon.png",
     icon: [
       {
         id: 1,
@@ -340,7 +340,7 @@ export const allProjects = [
     des5: "Payment Tracking: Monitor paid, unpaid, and overdue invoices.",
     des6: "Multi-Currency Invoicing: Support for international transactions.",
     des7: "Reporting & Analytics: Sales, revenue, and client analysis.",
-    img: "/NOCOPS.jpg",
+    img: "/smart_billing.png",
     icon: [
       {
         id: 1,
@@ -394,7 +394,7 @@ export const allProjects = [
     des5: "Table Reservations: Allow customers to reserve tables.",
     des6: "Employee Management: Staff scheduling, performance, and tips tracking.",
     des7: "Reports: Daily sales, popular dishes, and stock analysis.",
-    img: "/doccafe.png",
+    img: "/doccafe.jpg",
     icon: [
       {
         id: 1,
@@ -447,7 +447,7 @@ export const allProjects = [
     des4: "Stat Tracking: Detailed player and team performance tracking.",
     des5: "Notifications: Match reminders, results, and announcements.",
     des6: "Reports: Match performance, individual stats, and win/loss records.",
-    img: "/rcc_5.png",
+    img: "/rcc.png",
     icon: [
       {
         id: 1,
@@ -620,7 +620,7 @@ export const allProjects = [
     des5: "Inventory Reports: Track stock movements and overstocking.",
     des6: "Barcode Scanning: Fast data entry with barcode support.",
     des7: "Multi-location Support: Manage inventory across locations.",
-    img: "/inventory.png",
+    img: "/payroll_management.png",
     icon: [
       {
         id: 1,
@@ -837,7 +837,7 @@ export const allProjects = [
     des5: "Collaboration: Multiple users collaborate on documents.",
     des6: "Integration: With CRM, ERP, or file storage solutions.",
     des7: "Audit Trails: Track who accessed or edited documents.",
-    img: "/document_system.png",
+    img: "/document_system.jpg",
     icon: [
       {
         id: 1,
@@ -947,6 +947,7 @@ export const allProjects = [
     des4: "Reports: Entry/exit logs and access violations.",
     des5: "Integration: With security cameras and surveillance.",
     des6: "Alerts: Notifications for unauthorized access.",
+    img: "/vehicle_management.png",
     icon: [
       {
         id: 1,
@@ -1055,7 +1056,7 @@ export const allProjects = [
     des4: "Leave Integration: Link leave data to payroll.",
     des5: "Payslips: Generate and distribute digital payslips.",
     des6: "Reporting: Payroll summaries and tax reports.",
-    img: "/pay_roll.png",
+    img: "/payroll_management.png",
     icon: [
       {
         id: 1,
@@ -1110,7 +1111,7 @@ export const allProjects = [
     des6: "Lab Test Management: Track lab orders and results.",
     des7: "Inventory Management: Manage supplies and restocking alerts.",
     des8: "Doctor and Staff Management: Track doctor schedules, patient loads, and performance analytics.",
-    img: "/medi_care.jpg",
+    img: "/medi_care.png",
     icon: [
       {
         id: 1,
@@ -1162,65 +1163,100 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+    name: "Lahiru Jayasinghe",
     title: "Director of AlphaStream Technologies",
+    profileImage: "../lahiru.jpg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    profileImage: "../bossa.jpg",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  //   profileImage: "/images/jane-smith.jpg",
+  // },
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  //   profileImage: "/images/jane-smith.jpg",
+  // },
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  //   profileImage: "/images/jane-smith.jpg",
+  // },
 ];
 // _____________________________________________________companies_____________________________________________________
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    // name: "MillenniumIT",
+    // img: "/MillenniumIT.svg",
+    nameImg: "/MillenniumIT.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    // name: "appwrite",
+    // img: "/app.svg",
+    nameImg: "/ITgallery.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    // name: "HOSTINGER",
+    // img: "/host.svg",
+    nameImg: "/cenmetrix.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    // name: "stream",
+    // img: "/s.svg",
+    nameImg: "/connex.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/casa.svg",
+  },
+  {
+    id: 6,
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/chb.svg",
+  },
+  {
+    id: 7,
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/cdd.svg",
+  },
+  {
+    id: 8,
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/sl.svg",
+  },
+  // {
+  //   id: 9,
+  //   // name: "docker.",
+  //   // img: "/dock.svg",
+  //   nameImg: "/cdd.svg",
+  // },
+  {
+    id: 10,
+    // name: "docker.",
+    // img: "/dock.svg",
+    nameImg: "/dges.svg",
   },
 ];
 // _____________________________________________________workExperience_____________________________________________________
@@ -1258,15 +1294,18 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/fb.svg",
+    url: "https://www.facebook.com/share/YfU1To7QSmnZtYW3/"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/whtapp.svg",
+    url: "https://wa.me/94776970808"
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/company/dockyard-total-solutions/posts/?feedView=all"
   },
 ];
 // _____________________________________________________cards_____________________________________________________
@@ -1295,7 +1334,7 @@ export const teamDetails = [
     name: "Mr. Rohan De Silva",
     designation: "General Manager",
     des: "Joined Colombo Dockyard PLC in 1988 and has 35 years of experience in the field of finance and Management Accounting. Master of Business Management from Institute of Chartered Financial Analyst India. Member of the Association of Business Executives (UK). Member of Certified Professional Managers. Trained in General Management at National University of Singapore (NUS). He has served in Colombo Dockyard PLC and its subsidiary for 36 years, holding number of senior management positions in Finance and Administration activies.",
-    image: "/Rohan.png",
+    image: "/Rohan.jpg",
   },
   {
     id: 2,
@@ -1303,236 +1342,199 @@ export const teamDetails = [
     // designation: "Head of ICT - (Colombo Dockyard PLC & DTS ICT Centre)",
     designation: "Head Of IT",
     des: "Highly self-motivated Software Architect with the ability to be proactive in project execution. This includes 12+ years of experience and passion for software development and learning new technologies while empowering the team whith designing software system using agile software development. And participated, contributed, and provided leadership in multiple capacities to multiple technology and process transformations in software product and development over the years.",
-    image: "/Samaraweera.png",
+    image: "/Samaraweera.jpg",
   },
   {
     id: 3,
-    name: "A.U Mallawaarachchi",
-    designation: "Head of Section - (Colombo Dockyard PLC ICT Centre)",
-    des: "Started the journey with capabilities of software development and served the company by developing many mission critical applications with the passion of exploring new areas. Skilled at operating in a wide range of system platforms with excellent industrial-oriented technical skills and human resource management skills with a reputation for resolving mission-critical problems and improving customer satisfaction by helping them on achieving company objectives. Strongly lead to the result-oriented work scope with best communication methods",
-    image: "/Mallawarachchi.jpg",
-  },
-  {
-    id: 4,
-    name: "W.L.H.M.A.A. Bandara",
-    designation: "Senior Software Engineer",
-    des: "Software Engineer with 11 years of working experience in IT sector (BSc Hons. Information Technology) expertise in system development, web designing, and web development.",
-    image: "/Bandara.jpg",
-  },
-  {
-    id: 5,
-    name: "Lahiru Chathuranga", //K.V.L. Chathuranga
-    designation: "Lead Software Engineer",
-    des: "Highly self-motivated Software Architect with the ability to be proactive in project execution. This includes 12+ years of experience and passion for software development and learning new technologies while empowering the team whith designing software system using agile software development. And participated, contributed, and provided leadership in multiple capacities to multiple technology and process transformations in software product and development over the years.",
-    image: "/chathuranga.png",
-  },
-  {
-    id: 6,
-    name: "P.H.P.D. Gamlath",
-    designation: "Senior Software Engineer",
-    des: "Highly motivated IT professional with over 8+ years of experience in IT industry as well as a holder of BSc. (Hons) Computer Science. Expertised in Oracle Database administration, and a strong team player strive to bring creativity to problem solving, training and developing junior DBA trainees.",
-    image: "/Gamlath.jpg",
-  },
-  {
-    id: 7,
-    name: "L.P.A.D. Pathirathne",
-    designation: "Senior Software Engineer",
-    des: "A highly motivated Software Engineer with BSc. (Hons) Software Engineering along with 6+ years of working experience in proven ability to leverage full-stack knowledge and experience to develop wide-range of applications.",
-    image: "/Pathirathne.jpg",
-  },
-  {
-    id: 8,
-    name: "P.C.P. Karunanayake",
-    designation: "Systems Administrator (Networks & ICT Infrastructure)",
-    des: "System Administrator, Microsoft Specialized Technology Specialist (MCTS) - Windows Vista, Configurations and Advanced Diploma Holder in Entrepreneurial Business Management. over 20+ years working experience in Network and ICT Infrastructure.",
-    image: "/Karunanayake.jpg",
-  },
-  {
-    id: 9,
-    name: "K.P.D.D.I. Dharmarthne",
-    designation:
-      "Systems Administrator (Information Security And ICT Infrastructure)",
-    des: "Experienced and detail-oriented IT professional with 5 years of experience in the information security and system administration field who is skilled at operating in a wide range of system platforms.",
-    image: "/Dharmarthne.jpg",
-  },
-  {
-    id: 10,
-    name: "U.S. Mapalagama",
-    designation: "Systems Administrator (Information Systems)",
-    des: "System Administrator ( Information Systems) - BSc (Hons) Information Systems, Highly motivated team player with hands-on experience in large system architecture development and administration, as well as network design and configurations.",
-    image: "/Mapalagama.jpg",
-  },
-  {
-    id: 11,
-    name: "B.R. Tharanga",
-    designation:
-      "Assistant Systems Administrator (Networks & ICT Infrastructure)",
-    des: "Self driven and dedicated System Administrator (Hardware) - Over 20+ years of experience in IT sector, expertised in Hardware maintenance, troubleshooting, configuring and maintaining servers.",
-    image: "/Tharanga.jpg",
-  },
-  {
-    id: 12,
-    name: "P. L. N. Lakshitha",
-    designation: "Software Tech Lead",
-    des: "Accomplished Software Engineer (Team Lead). 5+ years of experience in both front end and backend development using industry demanded techniques and languages. Highly capable of driving the team towards the common goals ensuring the team's efficiency and effectiveness. Hand in experience of delivering large scale applications and pivotal contributions to the architecture of open-source projects.",
-    image: "/Lahiru.jpg",
-  },
-  {
-    id: 13,
-    name: "W. Lakmali",
-    designation: "Senior Software Engineer",
-    des: "",
-    image: "/lakmali.png",
-  },
-  {
-    id: 14,
-    name: "R.A.N.P. Perara",
-    designation: "Software Engineer",
-    des: "",
-    image: "/nilusha.png",
-  },
-  {
-    id: 15,
-    name: "Nirmitha Gunasekara", //S.A.N.R. Gunasekara
-    designation: "IOT Software Engineer",
-    des: "",
-    image: "/Nirmitha.png",
-  },
-  {
-    id: 16,
-    name: "R.W.P. Chanaka",
-    designation: "Software Engineer",
-    des: "",
-    image: "/Lahiru.jpg",
-  },
-  {
-    id: 17,
-    name: "J.O.M.D.S. Rupasinghe",
-    designation: "Software Engineer",
-    des: "",
-    image: "/Lahiru.jpg",
-  },
-  {
-    id: 18,
-    name: "B.I.E. Mendis",
-    designation: "Software Engineer",
-    des: "",
-    image: "/Lahiru.jpg",
-  },
-  {
-    id: 19,
-    name: "Idunil Yapa", //Y.A.D.I. Yapa
-    designation: "Software Engineer",
-    des: "",
-    image: "/Yapa.png",
-  },
-  {
-    id: 20,
-    name: "U.S.T. Perera",
-    designation: "",
-    des: "",
-    image: "/Lahiru.jpg",
-  },
-  {
-    id: 21,
-    name: "Binura Thilakaratne", //K.D.B.N. Thilakarathne
-    designation: "Associate Software Engineer (IOT)",
-    des: "",
-    image: "/Binura.png",
-  },
-  {
-    id: 22,
-    name: "I.L.D.S. Imbulana",
-    designation: "Associate QA Engineer",
-    des: "",
-    image: "/Lahiru.jpg",
-  },
-  {
-    id: 23,
     name: "Rajitha Rajapaksha",
     designation: "Head Of Section",
     des: "Experienced ICT leader with over 34 years in the industry, driving technological excellence and innovation. Proven track record of implementing cutting-edge solutions, optimizing IT infrastructure, and leading high-performing teams. A visionary strategist adept at aligning technology with business goals to achieve operational efficiency and competitive advantage.",
-    image: "/rajith.png",
+    image: "/rajith.jpg",
   },
   {
-    id: 24,
-    name: "Kusal Gamage", //S.K. Gamage
-    designation: "Software Engineer",
+    id: 4,
+    name: "Lahiru Chathuranga", //K.V.L. Chathuranga
+    // designation: "Lead Software Engineer",
+    des: "Highly self-motivated Software Architect with the ability to be proactive in project execution. This includes 12+ years of experience and passion for software development and learning new technologies while empowering the team whith designing software system using agile software development. And participated, contributed, and provided leadership in multiple capacities to multiple technology and process transformations in software product and development over the years.",
+    image: "/chathuranga.jpg",
+  },
+  {
+    id: 5,
+    name: "W. Lakmali",
+    // designation: "Senior Software Engineer",
     des: "",
-    image: "/Gamage.png",
+    image: "/lakmali.jpg",
   },
   {
-    id: 25,
+    id: 6,
+    name: "Nirmitha Gunasekara", //S.A.N.R. Gunasekara
+    // designation: "IOT Software Engineer",
+    des: "",
+    image: "/Nirmitha.jpg",
+  },
+  {
+    id: 7,
+    name: "Idunil Yapa", //Y.A.D.I. Yapa
+    // designation: "Software Engineer",
+    des: "",
+    image: "/Yapa.jpg",
+  },
+  {
+    id: 8,
+    name: "Kusal Gamage", //S.K. Gamage
+    // designation: "Software Engineer",
+    des: "",
+    image: "/Gamage.jpg",
+  },
+  {
+    id: 9,
+    name: "Binura Thilakaratne", //K.D.B.N. Thilakarathne
+    // designation: "Associate Software Engineer (IOT)",
+    des: "",
+    image: "/Binura.jpg",
+  },
+  {
+    id: 10,
     name: "Anumi Gunarathne",
-    designation: "Associate Software Engineer",
-    image: "/Anumi Gunarathna.png",
+    // designation: "Associate Software Engineer",
+    image: "/Anumi.jpg",
   },
   {
-    id: 26,
-    name: "Sachit Jayasundara",
-    designation: "Associate Software Engineer",
-    image: "/Sachith.png",
+    id: 11,
+    name: "Sachith Jayasundara",
+    // designation: "Associate Software Engineer",
+    image: "/Sachith.jpg",
   },
   {
-    id: 27,
+    id: 12,
     name: "Randeera Withanage",
-    designation: "Associate Software Engineer",
-    image: "/Randeera.png",
+    // designation: "Associate Software Engineer",
+    image: "/Randeera.jpg",
   },
   {
-    id: 28,
-    name: "Chenuka Kuruppu	",
-    designation: "Associate Software Engineer",
-    image: "/chenuka.png",
-  },
-  {
-    id: 29,
-    name: "Yeran Fernando",
-    designation: "Associate Data Scince Engineer",
-    image: "/yeran.png",
-  },
-  {
-    id: 30,
-    name: "Kavindu Nimesh",
-    designation: "Associate Software Engineer",
-    image: "/nimesh.png",
-  },
-  {
-    id: 31,
-    name: "Umaya Nethmi",
-    designation: "Associate Software Engineer",
-    image: "/nethmi.png",
-  },
-  {
-    id: 32,
-    name: "Kushan Nalinka",
-    designation: "Associate Software Engineer",
-    image: "/Kushan.png",
-  },
-  {
-    id: 33,
-    name: "Nuwani Maheesha",
-    designation: "Associate Software Engineer",
-    image: "/nuwani_1.png",
-  },
-  {
-    id: 34,
-    name: "Pamitha Pankaja",
-    designation: "Associate Software Engineer",
-    image: "/pamitha.png",
-  },
-  {
-    id: 35,
-    name: "Duhithu Sakuni",
-    designation: "Associate Software Engineer (QA)",
-    image: "/Duhithu.png",
-  },
-  {
-    id: 36,
+    id: 13,
     name: "Lahiru Jayasinghe",
-    designation: "Associate UI/UX Engineer",
-    image: "/Loottaa.png",
+    // designation: "Associate UI/UX Engineer",
+    image: "/Lahiru.jpg",
   },
+  {
+    id: 14,
+    name: "Yeran Fernando",
+    // designation: "Associate Data Scince Engineer",
+    image: "/yeran.jpg",
+  },
+  {
+    id: 15,
+    name: "Pamitha Pankaja",
+    // designation: "Associate Software Engineer",
+    image: "/Pamitha.jpg",
+  },
+  {
+    id: 16,
+    name: "Chenuka Kuruppu	",
+    // designation: "Associate Software Engineer",
+    image: "/chenuka.jpg",
+  },
+  {
+    id: 17,
+    name: "Kushan Nalinka",
+    // designation: "Associate Software Engineer",
+    image: "/Kushan.jpg",
+  },
+  {
+    id: 18,
+    name: "Kavindu Nimesh",
+    // designation: "Associate Software Engineer",
+    image: "/Nimesh.jpg",
+  },
+  {
+    id: 19,
+    name: "Duhithu Sakuni",
+    // designation: "Associate Software Engineer (QA)",
+    image: "/Duhithu.jpg",
+  },
+  {
+    id: 20,
+    name: "Umaya Nethmi",
+    // designation: "Associate Software Engineer",
+    image: "/nethmi.jpg",
+  },
+  
+  {
+    id: 21,
+    name: "Nuwani Maheesha",
+    // designation: "Associate Software Engineer",
+    image: "/nuwani.jpg",
+  },
+
+  
+  
+  // {
+  //   id: 3,
+  //   name: "A.U Mallawaarachchi",
+  //   designation: "Head of Section - (Colombo Dockyard PLC ICT Centre)",
+  //   des: "Started the journey with capabilities of software development and served the company by developing many mission critical applications with the passion of exploring new areas. Skilled at operating in a wide range of system platforms with excellent industrial-oriented technical skills and human resource management skills with a reputation for resolving mission-critical problems and improving customer satisfaction by helping them on achieving company objectives. Strongly lead to the result-oriented work scope with best communication methods",
+  //   image: "/Mallawarachchi.jpg",
+  // },
+  // {
+  //   id: 4,
+  //   name: "W.L.H.M.A.A. Bandara",
+  //   designation: "Senior Software Engineer",
+  //   des: "Software Engineer with 11 years of working experience in IT sector (BSc Hons. Information Technology) expertise in system development, web designing, and web development.",
+  //   image: "/Bandara.jpg",
+  // },
+  // {
+  //   id: 6,
+  //   name: "P.H.P.D. Gamlath",
+  //   designation: "Senior Software Engineer",
+  //   des: "Highly motivated IT professional with over 8+ years of experience in IT industry as well as a holder of BSc. (Hons) Computer Science. Expertised in Oracle Database administration, and a strong team player strive to bring creativity to problem solving, training and developing junior DBA trainees.",
+  //   image: "/Gamlath.jpg",
+  // },
+  // {
+  //   id: 7,
+  //   name: "L.P.A.D. Pathirathne",
+  //   designation: "Senior Software Engineer",
+  //   des: "A highly motivated Software Engineer with BSc. (Hons) Software Engineering along with 6+ years of working experience in proven ability to leverage full-stack knowledge and experience to develop wide-range of applications.",
+  //   image: "/Pathirathne.jpg",
+  // },
+  // {
+  //   id: 8,
+  //   name: "P.C.P. Karunanayake",
+  //   designation: "Systems Administrator (Networks & ICT Infrastructure)",
+  //   des: "System Administrator, Microsoft Specialized Technology Specialist (MCTS) - Windows Vista, Configurations and Advanced Diploma Holder in Entrepreneurial Business Management. over 20+ years working experience in Network and ICT Infrastructure.",
+  //   image: "/Karunanayake.jpg",
+  // },
+  // {
+  //   id: 9,
+  //   name: "K.P.D.D.I. Dharmarthne",
+  //   designation:
+  //     "Systems Administrator (Information Security And ICT Infrastructure)",
+  //   des: "Experienced and detail-oriented IT professional with 5 years of experience in the information security and system administration field who is skilled at operating in a wide range of system platforms.",
+  //   image: "/Dharmarthne.jpg",
+  // },
+  // {
+  //   id: 10,
+  //   name: "U.S. Mapalagama",
+  //   designation: "Systems Administrator (Information Systems)",
+  //   des: "System Administrator ( Information Systems) - BSc (Hons) Information Systems, Highly motivated team player with hands-on experience in large system architecture development and administration, as well as network design and configurations.",
+  //   image: "/Mapalagama.jpg",
+  // },
+  // {
+  //   id: 11,
+  //   name: "B.R. Tharanga",
+  //   designation:
+  //     "Assistant Systems Administrator (Networks & ICT Infrastructure)",
+  //   des: "Self driven and dedicated System Administrator (Hardware) - Over 20+ years of experience in IT sector, expertised in Hardware maintenance, troubleshooting, configuring and maintaining servers.",
+  //   image: "/Tharanga.jpg",
+  // },
+  // {
+  //   id: 12,
+  //   name: "P. L. N. Lakshitha",
+  //   designation: "Software Tech Lead",
+  //   des: "Accomplished Software Engineer (Team Lead). 5+ years of experience in both front end and backend development using industry demanded techniques and languages. Highly capable of driving the team towards the common goals ensuring the team's efficiency and effectiveness. Hand in experience of delivering large scale applications and pivotal contributions to the architecture of open-source projects.",
+  //   image: "/Lahiru.jpg",
+  // },
+  
 ];
 
 // _____________________________________________________contactdetails_____________________________________________________

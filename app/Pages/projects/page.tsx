@@ -70,16 +70,15 @@ export default function ProjectsPage() {
                 transition={{ duration: 0.3 }}
                 className="text-xl font-bold pl-4"
               >
-                <span className="text-3xl text-black-100">DOCKYARD</span>
-                <span className="text-purple bg-p_glassy px-1 rounded">SOFTWARE</span>
+                
               </motion.div>
             </motion.header>
           )}
         </AnimatePresence>
 
         <div className="flex justify-center pt-28 pb-0">
-          <h1 className="text-4xl font-bold mb-8">
-              Bring Your <span className="text-purple">Project</span>
+          <h1 className="text-6xl font-bold mb-8">
+              Our <span className="text-purple">Project</span>
           </h1>
         </div>
 
