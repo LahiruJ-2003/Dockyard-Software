@@ -120,7 +120,7 @@ export const allProjects = [
     des5: "Automated Reminders: SMS or email reminders for clients.",
     des6: "Payment Integration: Accept multiple payment methods (cash, card, online)",
     des7: "Reporting & Analytics: Sales, appointments, and customer satisfaction.",
-    img: "/salon_2.png",
+    img: "/salon.png",
     icon: [
       {
         id: 1,
@@ -340,7 +340,7 @@ export const allProjects = [
     des5: "Payment Tracking: Monitor paid, unpaid, and overdue invoices.",
     des6: "Multi-Currency Invoicing: Support for international transactions.",
     des7: "Reporting & Analytics: Sales, revenue, and client analysis.",
-    img: "/NOCOPS.jpg",
+    img: "/smart_billing.png",
     icon: [
       {
         id: 1,
@@ -394,7 +394,7 @@ export const allProjects = [
     des5: "Table Reservations: Allow customers to reserve tables.",
     des6: "Employee Management: Staff scheduling, performance, and tips tracking.",
     des7: "Reports: Daily sales, popular dishes, and stock analysis.",
-    img: "/doccafe.png",
+    img: "/doccafe.jpg",
     icon: [
       {
         id: 1,
@@ -447,7 +447,7 @@ export const allProjects = [
     des4: "Stat Tracking: Detailed player and team performance tracking.",
     des5: "Notifications: Match reminders, results, and announcements.",
     des6: "Reports: Match performance, individual stats, and win/loss records.",
-    img: "/rcc_5.png",
+    img: "/rcc.png",
     icon: [
       {
         id: 1,
@@ -620,7 +620,7 @@ export const allProjects = [
     des5: "Inventory Reports: Track stock movements and overstocking.",
     des6: "Barcode Scanning: Fast data entry with barcode support.",
     des7: "Multi-location Support: Manage inventory across locations.",
-    img: "/inventory.png",
+    img: "/payroll_management.png",
     icon: [
       {
         id: 1,
@@ -837,7 +837,7 @@ export const allProjects = [
     des5: "Collaboration: Multiple users collaborate on documents.",
     des6: "Integration: With CRM, ERP, or file storage solutions.",
     des7: "Audit Trails: Track who accessed or edited documents.",
-    img: "/document_system.png",
+    img: "/document_system.jpg",
     icon: [
       {
         id: 1,
@@ -947,6 +947,7 @@ export const allProjects = [
     des4: "Reports: Entry/exit logs and access violations.",
     des5: "Integration: With security cameras and surveillance.",
     des6: "Alerts: Notifications for unauthorized access.",
+    img: "/vehicle_management.png",
     icon: [
       {
         id: 1,
@@ -1055,7 +1056,7 @@ export const allProjects = [
     des4: "Leave Integration: Link leave data to payroll.",
     des5: "Payslips: Generate and distribute digital payslips.",
     des6: "Reporting: Payroll summaries and tax reports.",
-    img: "/pay_roll.png",
+    img: "/payroll_management.png",
     icon: [
       {
         id: 1,
@@ -1110,7 +1111,7 @@ export const allProjects = [
     des6: "Lab Test Management: Track lab orders and results.",
     des7: "Inventory Management: Manage supplies and restocking alerts.",
     des8: "Doctor and Staff Management: Track doctor schedules, patient loads, and performance analytics.",
-    img: "/medi_care.jpg",
+    img: "/medi_care.png",
     icon: [
       {
         id: 1,
